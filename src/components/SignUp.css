@@ -1,0 +1,22 @@
+body{
+    background-color: #F4EEEE;
+    height:100%;
+  }
+  
+  .form {
+    text-align: center;
+    right:18px;
+    left : 50px;
+    top:100px;
+    position: absolute;
+    max-width: 380px;
+    padding: 50px;
+    margin: auto;
+    background-color: white;
+  
+  }
+
+  .button{
+    background-color: #F4EEEE;
+    color:black;
+  }
