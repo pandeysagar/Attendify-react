@@ -5,12 +5,14 @@ import { BrowserRouter as Router, Routes,
     Route, Redirect,Switch} from "react-router-dom";
   import { render } from 'react-dom';
   import { BrowserRouter} from 'react-router-dom';
+  import Dashboard from "./components/Dashboard";
   ReactDom.render(
     <React.StrictMode>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <App /> }>
           </Route>
+          <Route path = "/Dashboard" element = {<Dashboard />}></Route>
         </Routes>
       </BrowserRouter>
     </React.StrictMode>,
