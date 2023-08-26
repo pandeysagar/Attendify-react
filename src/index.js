@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes,
   import { render } from 'react-dom';
   import { BrowserRouter} from 'react-router-dom';
   import Dashboard from "./components/Dashboard";
+  import Subjects from "./components/Subjects";
   ReactDom.render(
     <React.StrictMode>
       <BrowserRouter>
@@ -13,6 +14,7 @@ import { BrowserRouter as Router, Routes,
           <Route path="/" element={ <App /> }>
           </Route>
           <Route path = "/Dashboard" element = {<Dashboard />}></Route>
+          <Route path = "/Subjects" element = {<Subjects />}></Route>
         </Routes>
       </BrowserRouter>
     </React.StrictMode>,
