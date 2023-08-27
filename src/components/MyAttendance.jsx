@@ -17,8 +17,8 @@ function MyAttendance() {
                   <th scope="col">Category</th>
                   <th scope="col">Subject</th>
                   <th scope="col">Faculty Name</th>
-                  <th scope="col">Hours Attended</th>
-                  <th scope="col">Hours Present</th>
+                  <th scope="col">Hours Conducted</th>
+                  <th scope="col">Hours Absent</th>
                   <th scope="col">Percentage</th>
 
                 </tr>
